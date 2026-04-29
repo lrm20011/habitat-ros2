@@ -15,11 +15,6 @@ habitat_node:
     habitat.depth_noise: false
     habitat.visualize_semantics: false
     habitat.scene_file: "/home/iot/habitat_ros2/00853-5cdEh9F2hJL/5cdEh9F2hJL.glb"
-    #scene_file: "~/data/scene_datasets/habitat-test-scenes/skokloster-castle.glb"
-    #scene_file: "~/data/m3d/versioned_data/mp3d_example_scene_1.1/17DRP5sb8fy/17DRP5sb8fy.glb"
-    #scene_file: "~/data/hm3d-val-glb-v0.2/00800-TEEsavR23oF/TEEsavR23oF.glb"   #TWO FLOOR
-    # scene_file: "~/data/hm3d-val-glb-v0.2/00853-5cdEh9F2hJL/5cdEh9F2hJL.glb"
-    #scene_file: "~/Documents/Datasets/Replica/room_0/habitat/mesh_semantic.ply"
     habitat.pose_frame_id: "world"
     habitat.pose_frame_at_initial_T_HB: false
     habitat.recording_dir: ""

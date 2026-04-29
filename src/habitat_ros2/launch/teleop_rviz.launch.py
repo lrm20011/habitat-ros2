@@ -61,11 +61,11 @@ def generate_launch_description():
     )
 
     return LaunchDescription([
+        rviz_node,
         teleop_arg,
         publish_path_arg,
         static_tf_node,
         habitat_node,
+        teleop_node,
         mesh_node,
-        rviz_node,
-        teleop_node
     ])
