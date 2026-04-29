@@ -8,6 +8,7 @@
 * **Habitat-Sim** installed in your active Python environment (often done via Conda).
 
 ```bash
+sudo apt-get install xterm
 conda create -n habitat python=3.10
 conda activate habitat
 conda install habitat-sim withbullet -c conda-forge -c aihabitat-nightly
@@ -36,7 +37,7 @@ ros2 launch habitat_ros2 teleop_rviz.launch.py
 ```
 It supports to run the simulator in computer A, and deploy algorithms in computer B and link them with ethernet. To do that, you only need to set habitat.compress_image = true, in computer B transfer compressed image to raw image and 
 ```bash
-export export ROS_LOCALHOST_ONLY=0
+export ROS_LOCALHOST_ONLY=0
 ```
 in both computers
 
